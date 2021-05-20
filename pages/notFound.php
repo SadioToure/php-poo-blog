@@ -1,9 +1,9 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-</head>
-<body>
-    <h2>Page introuvable</h2>
-    <h3>Erreur 404</h3>
-</body>
-</html>
+<?php
+require __DIR__ . '/partials/themeStart.php';
+?>
+
+<h1>Page introuvable</h1>
+
+<?
+require __DIR__ . '/partials/themeEnd.php';
+?>
